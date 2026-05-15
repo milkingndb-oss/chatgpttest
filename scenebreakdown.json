@@ -1,0 +1,5360 @@
+{
+  "project": "The Devouring Wolf Summoner",
+  "sourceFiles": {
+    "transcript": "puppy-transcript.pdf",
+    "imageRoster": "available-character-profile-images.md",
+    "storyDraft": "completed-rewritten-narration-story.md",
+    "locationBible": "location-bible.md"
+  },
+  "nameNormalization": {
+    "Chenlin": [
+      "Chen Lin",
+      "Chenllin"
+    ],
+    "Hey Ming": [
+      "Hay Ming",
+      "Haying",
+      "Haing",
+      "Heiming"
+    ],
+    "Lu Ru Yan": [
+      "Lu Ruan",
+      "Lu Ruen"
+    ],
+    "Su Ling Shu": [
+      "Suling Shu",
+      "Suling Shuer"
+    ],
+    "Commander Cao Wu": [
+      "Cao Wu",
+      "Caoou",
+      "Caoyu",
+      "Sao Wu"
+    ],
+    "Yang Xiao": [
+      "Yang Sha",
+      "Yang Shia",
+      "Yong Xiao"
+    ]
+  },
+  "visualContinuity": {
+    "genre": "modern cultivation academy, summoned-beast progression fantasy, military monster-war epic",
+    "aspectRatio": "16:9 for story panels, 9:16 for shorts, 1:1 only for profile/stat cards",
+    "lightingStyle": "cinematic high contrast with clean readable silhouettes",
+    "statCardStyle": "translucent blue-black system interface, glowing white text, rank badges, attribute grid, evolution alerts"
+  },
+  "scenes": [
+    {
+      "id": "F5_001",
+      "title": "Cold Open: No One Laughs Later",
+      "storyMoment": "In the future, Hey Ming towers over Wooan as a black-flame disaster while armies burn below.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "future-scale battle wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "future battlefield hero"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "future world-scale wolf"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Immediate future payoff: puppy will become world-scale wolf.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_002",
+      "title": "Cold Open: Crimson Moon",
+      "storyMoment": "Diana splits the sky with a crimson moon in the final war.",
+      "location": "Border Defense Ruins Sky",
+      "cameraViewType": "divine spectacle shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "future Sun-Moon Judgment angel"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "future battlefield hero"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "future world-scale wolf"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Tease Diana ultimate form early.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_003",
+      "title": "Cold Open: Living Armor",
+      "storyMoment": "Silver Butterfly wraps Chenlin in living armor as the Fallen Clan warlord tries to retreat.",
+      "location": "Border Defense Ruins Sky",
+      "cameraViewType": "hero armor closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "future battlefield hero"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "future living armor"
+        },
+        {
+          "name": "Fallen Clan Warlord",
+          "profileImage": "Fallen_Clan_FC-F4.png",
+          "role": "future final enemy"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Tease late-story armor and final enemy.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_004",
+      "title": "Cold Open: Gate In The Wolf Jaws",
+      "storyMoment": "Hey Ming bites into a violet spatial gate and begins devouring it.",
+      "location": "Border Defense Ruins Sky",
+      "cameraViewType": "portal destruction shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "future world-scale wolf"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "future Sun-Moon Judgment angel"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "future battlefield hero"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Tease final gate devouring.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_005",
+      "title": "Cold Open: They Called Him Disaster",
+      "storyMoment": "Narration states the world stopped calling Hey Ming trash and began calling him a disaster.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "ominous creature closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "future world-scale wolf"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_006",
+      "title": "Cold Open: They Were Still Wrong",
+      "storyMoment": "The narration reframes Hey Ming not as a disaster, but as loyalty with teeth.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "wolf eye closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "future world-scale wolf"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "future battlefield hero"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_007",
+      "title": "Cold Open: Return To Beginning",
+      "storyMoment": "The image snaps from giant wolf eye to tiny puppy eye in the awakening hall.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "match cut closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "future world-scale wolf"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_008",
+      "title": "Empty Room Hook",
+      "storyMoment": "The story rewinds to Chenlin's empty rented room before the awakening.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "quiet room wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Chenlin's Mother",
+          "profileImage": "Chenlin_Mother.png",
+          "role": "memory or portrait"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_009",
+      "title": "Last Coin Hook",
+      "storyMoment": "His little sister presses her last coin into his hand, making the stakes personal.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "hand closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Chenlin's Little Sister",
+          "profileImage": "Chenlin_Little_Sister.png",
+          "role": "younger sister supporting Chenlin"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_010",
+      "title": "Promise Hook",
+      "storyMoment": "Chenlin leaves with the coin and a future to win back.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "doorway silhouette",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Chenlin's Little Sister",
+          "profileImage": "Chenlin_Little_Sister.png",
+          "role": "younger sister supporting Chenlin"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_011",
+      "title": "Awakening Hall Pressure",
+      "storyMoment": "Chenlin enters the crowded awakening hall where everyone expects him to succeed.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "crowd pressure wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_012",
+      "title": "Teacher Expectation",
+      "storyMoment": "Luen watches Chenlin with visible expectation before the summoning.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "teacher reaction closeup",
+      "requiredCharacters": [
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_013",
+      "title": "Girlfriend Expectation",
+      "storyMoment": "Lu Ru Yan watches Chenlin, still believing he may be useful to her future.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "character closeup",
+      "requiredCharacters": [
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_014",
+      "title": "Circle Ignites",
+      "storyMoment": "The summoning circle ignites beneath Chenlin.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "magic circle shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_015",
+      "title": "Audience Holds Breath",
+      "storyMoment": "The hall waits for Chenlin's beast to appear.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "suspended silence wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_016",
+      "title": "Tiny Shape Appears",
+      "storyMoment": "A tiny black shape appears in the fading light.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "mystery reveal closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First tiny puppy reveal begins.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_017",
+      "title": "Puppy Blink",
+      "storyMoment": "The tiny black puppy blinks up at Chenlin.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "creature closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming puppy form.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_018",
+      "title": "Tail Wag Silence",
+      "storyMoment": "The puppy wags its tail once in total silence.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "cute suspense closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_019",
+      "title": "First Laugh Hits",
+      "storyMoment": "The first laugh breaks the silence.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "reaction shock shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_020",
+      "title": "Mockery Spreads",
+      "storyMoment": "Laughter spreads through the entire hall.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "crowd reaction wide",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        },
+        {
+          "name": "Ya Chowo",
+          "profileImage": "Ya_Chowo.png",
+          "role": "mocking classmate"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_021",
+      "title": "Ya Chowo Sneer",
+      "storyMoment": "Ya Chowo openly mocks the useless puppy summon.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "mocking closeup",
+      "requiredCharacters": [
+        {
+          "name": "Ya Chowo",
+          "profileImage": "Ya_Chowo.png",
+          "role": "mocking classmate"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_022",
+      "title": "Luen Crushed",
+      "storyMoment": "Luen's expectation collapses into disappointment.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "teacher face closeup",
+      "requiredCharacters": [
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_023",
+      "title": "Chenlin Sees Loyalty",
+      "storyMoment": "Chenlin looks at the puppy and sees loyalty instead of failure.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "emotional closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_024",
+      "title": "Puppy In Arms",
+      "storyMoment": "Chenlin picks the puppy up while the hall laughs.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "gentle action shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_025",
+      "title": "Puppy Licks Him",
+      "storyMoment": "The puppy licks Chenlin's chin, making the mockery louder.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "warm contrast closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_026",
+      "title": "Lu Ru Yan Walks Forward",
+      "storyMoment": "Lu Ru Yan approaches with rehearsed regret.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "approach shot",
+      "requiredCharacters": [
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_027",
+      "title": "Luang Behind Her",
+      "storyMoment": "Luang stands behind Lu Ru Yan as her new stronger teammate.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "betrayal reveal shot",
+      "requiredCharacters": [
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        },
+        {
+          "name": "Luang",
+          "profileImage": "Luang.png",
+          "role": "spear knight"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_028",
+      "title": "Girlfriend Leaves",
+      "storyMoment": "Lu Ru Yan tells Chenlin she cannot afford to fall with him.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "emotional medium shot",
+      "requiredCharacters": [
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_029",
+      "title": "No Problem",
+      "storyMoment": "Chenlin answers calmly: no problem.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "calm face closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_030",
+      "title": "Hidden Prompt Flickers",
+      "storyMoment": "While everyone mocks him, a hidden lifebound prompt flickers in Chenlin's mind.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "system interface closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hidden bond detected.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_031",
+      "title": "Black Mark Reveal",
+      "storyMoment": "The faint black devouring mark beneath the puppy's fur glows.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "macro detail shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Devouring bloodline clue.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_032",
+      "title": "Extreme Pain Warning",
+      "storyMoment": "The system warns that the lifebound contract will tear through soul and body.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "warning UI closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Lifebound contract warning.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_033",
+      "title": "Chenlin Chooses Yes",
+      "storyMoment": "Chenlin accepts the lifebound contract without hesitation.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "decisive system shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Contract accepted.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_034",
+      "title": "Soul Pain Collapse",
+      "storyMoment": "Chenlin collapses from the contract pain while classmates misread it as shame.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "dramatic fall shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        },
+        {
+          "name": "Ya Chowo",
+          "profileImage": "Ya_Chowo.png",
+          "role": "mocking classmate"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_035",
+      "title": "Puppy Forehead Bond",
+      "storyMoment": "The puppy presses its forehead to Chenlin as soul threads connect them.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "bond closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Lifebound connection visual.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_036",
+      "title": "Gluttonous Greed",
+      "storyMoment": "The hidden talent Gluttonous Greed appears on the system card.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "stat card insert",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Talent awakened: Gluttonous Greed.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_037",
+      "title": "Limitless Growth Hook",
+      "storyMoment": "The talent explains that anything consumed can become growth energy.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "system explanation card",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Limitless growth rule.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_038",
+      "title": "Power Feedback Hook",
+      "storyMoment": "The card reveals some growth will feed back into Chenlin.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "system explanation card",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Contractor power feedback rule.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_039",
+      "title": "Chenlin Understands",
+      "storyMoment": "Chenlin realizes everyone is laughing at the wrong thing.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "realization closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_040",
+      "title": "Name Hey Ming",
+      "storyMoment": "Chenlin names the tiny puppy Hey Ming.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "naming closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_041",
+      "title": "Exit With Secret",
+      "storyMoment": "Chenlin leaves the hall carrying the puppy and a secret no one else understands.",
+      "location": "Second High Awakening Hall",
+      "cameraViewType": "walkaway shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_042",
+      "title": "Meat Pile Tease",
+      "storyMoment": "Cut to the rented room floor covered with beast meat.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "low wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_043",
+      "title": "First Bite Tease",
+      "storyMoment": "Hey Ming opens his mouth toward the first slab of meat as black sparks appear.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "cliffhanger feeding closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First feeding cliffhanger for minute five transition.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_044",
+      "title": "Butcher Warning Flash",
+      "storyMoment": "A quick flashback shows the butcher warning that the puppy will not survive mutant beast meat.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "flashback dialogue shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_045",
+      "title": "Every Coin Spent",
+      "storyMoment": "Chenlin empties his remaining money for the meat pile.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "money closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_047",
+      "title": "Hey Ming Smells Blood",
+      "storyMoment": "Hey Ming stares at the meat, trembling with ancient hunger.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "creature hunger closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_048",
+      "title": "Chenlin Gives Permission",
+      "storyMoment": "Chenlin quietly tells Hey Ming to eat.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "command closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_049",
+      "title": "First Bite Cliff Edge",
+      "storyMoment": "Hey Ming bites into the first slab and black sparks jump from his teeth.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "feeding closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First consumed meat conversion begins.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_050",
+      "title": "System Value Flicker",
+      "storyMoment": "The system shows purification or growth value increasing for the first time.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "system card insert",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First growth value increase.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_051",
+      "title": "Chenlin Feels Feedback",
+      "storyMoment": "Chenlin feels the first thread of strength return through the contract.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "body reaction closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First contractor feedback.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_052",
+      "title": "Puppy Paw Enlarges",
+      "storyMoment": "Hey Ming's tiny paw begins to enlarge on the wooden floor.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "transformation detail",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Physical growth begins.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_053",
+      "title": "Claw Scratches Wood",
+      "storyMoment": "A new claw scrapes a groove through the floorboard.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "floor detail shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_054",
+      "title": "Black Aura Builds",
+      "storyMoment": "Black aura rolls from Hey Ming as he keeps eating.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "aura build shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Devouring energy builds.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_055",
+      "title": "Chenlin Eyes Sharpen",
+      "storyMoment": "Chenlin's eyes sharpen as power feeds back into him.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "face transformation closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "mocked young summoner"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Feedback changes Chenlin.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_056",
+      "title": "Young Wolf Silhouette",
+      "storyMoment": "The puppy silhouette stretches into the outline of a wolf.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "shadow transformation shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "tiny puppy form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Puppy-to-wolf visual hook.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_057",
+      "title": "Room Too Small Tease",
+      "storyMoment": "The room seems too small for the power beginning to wake.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "claustrophobic wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "pre-awakening poor student"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_058",
+      "title": "Evolution Button Tease",
+      "storyMoment": "A locked evolution button flickers faintly on the system screen.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "system tease closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "pre-awakening poor student"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First evolution foreshadowing.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_059",
+      "title": "Chenlin Smile Hook",
+      "storyMoment": "Chenlin smiles because the world has no idea what just awakened.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "confident closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F0.png",
+          "role": "pre-awakening poor student"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "F5_060",
+      "title": "First Five Minute Cliffhanger",
+      "storyMoment": "The final hook beat lands on Hey Ming's growing black wolf eyes before the quiet bond and first evolution continue.",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "wolf eye closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Cliffhanger into the quiet bond and first evolution.",
+      "imagePromptNotes": "First 5 minutes: 4-6 second hook cadence; emphasize mystery, betrayal, hidden power, and future payoff."
+    },
+    {
+      "id": "T10_091",
+      "title": "Quiet Bond: Chenlin sits beside Hey Ming",
+      "storyMoment": "Chenlin sits beside Hey Ming",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_092",
+      "title": "Quiet Bond: Forehead touches wolf forehead",
+      "storyMoment": "Forehead touches wolf forehead",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_093",
+      "title": "Quiet Bond: Chenlin warns against arrogance",
+      "storyMoment": "Chenlin warns against arrogance",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_094",
+      "title": "Quiet Bond: He is warning himself too",
+      "storyMoment": "He is warning himself too",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_095",
+      "title": "Quiet Bond: Hey Ming yawns",
+      "storyMoment": "Hey Ming yawns",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_096",
+      "title": "Quiet Bond: Chenlin almost laughs",
+      "storyMoment": "Chenlin almost laughs",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_097",
+      "title": "Quiet Bond: Silence returns to room",
+      "storyMoment": "Silence returns to room",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_098",
+      "title": "Quiet Bond: Contract mark pulses faintly",
+      "storyMoment": "Contract mark pulses faintly",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_099",
+      "title": "Quiet Bond: Both rest before evolution",
+      "storyMoment": "Both rest before evolution",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_100",
+      "title": "Quiet Bond: System chime interrupts",
+      "storyMoment": "System chime interrupts",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "warm closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_101",
+      "title": "First Evolution: Evolution threshold reached",
+      "storyMoment": "Evolution threshold reached",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_102",
+      "title": "First Evolution: Begin evolution prompt appears",
+      "storyMoment": "Begin evolution prompt appears",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_103",
+      "title": "First Evolution: Chenlin accepts instantly",
+      "storyMoment": "Chenlin accepts instantly",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_104",
+      "title": "First Evolution: Black flame erupts",
+      "storyMoment": "Black flame erupts",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_105",
+      "title": "First Evolution: Room shakes violently",
+      "storyMoment": "Room shakes violently",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_106",
+      "title": "First Evolution: Bones reweave in flame",
+      "storyMoment": "Bones reweave in flame",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_107",
+      "title": "First Evolution: Shadow expands on wall",
+      "storyMoment": "Shadow expands on wall",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_108",
+      "title": "First Evolution: Flames sink into fur",
+      "storyMoment": "Flames sink into fur",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_109",
+      "title": "First Evolution: Evolved eyes open",
+      "storyMoment": "Evolved eyes open",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_110",
+      "title": "First Evolution: Hey Ming new form revealed",
+      "storyMoment": "Hey Ming new form revealed",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "evolution shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F1.png",
+          "role": "young wolf growth form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming first evolution into evolved wolf form.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_111",
+      "title": "Skills And Exam Hook: Rend skill card appears",
+      "storyMoment": "Rend skill card appears",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_112",
+      "title": "Skills And Exam Hook: Gigantification talent appears",
+      "storyMoment": "Gigantification talent appears",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_113",
+      "title": "Skills And Exam Hook: Chenlin feels evolved feedback",
+      "storyMoment": "Chenlin feels evolved feedback",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_114",
+      "title": "Skills And Exam Hook: He remembers tomorrow exam",
+      "storyMoment": "He remembers tomorrow exam",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_115",
+      "title": "Skills And Exam Hook: School expects him to fail",
+      "storyMoment": "School expects him to fail",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_116",
+      "title": "Skills And Exam Hook: Lu Ru Yan expects him gone",
+      "storyMoment": "Lu Ru Yan expects him gone",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_117",
+      "title": "Skills And Exam Hook: Luen expects tragedy",
+      "storyMoment": "Luen expects tragedy",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_118",
+      "title": "Skills And Exam Hook: Chenlin touches Hey Ming head",
+      "storyMoment": "Chenlin touches Hey Ming head",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_119",
+      "title": "Skills And Exam Hook: Tomorrow we start hunting",
+      "storyMoment": "Tomorrow we start hunting",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "T10_120",
+      "title": "Skills And Exam Hook: Dawn leads toward exam plaza",
+      "storyMoment": "Dawn leads toward exam plaza",
+      "location": "Chenlin's Rented Room",
+      "cameraViewType": "stat card and transition shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "newly empowered summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "first evolved wolf form"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "homeroom teacher"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Rend and Gigantification acquired before entrance exam.",
+      "imagePromptNotes": "First 10 minutes: use 4-6 second visual cadence; keep continuity with the completed rewritten story."
+    },
+    {
+      "id": "AS016",
+      "title": "Exam Plaza Opens",
+      "storyMoment": "Students gather before four bronze dungeon gates as the entrance exam begins.",
+      "location": "Entrance Exam Plaza",
+      "cameraViewType": "large crowd overview",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "solo entrant"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "exam instructor"
+        },
+        {
+          "name": "Su Ling Shu",
+          "profileImage": "Su_Ling_Shu.png",
+          "role": "elite solo competitor"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "team entrant"
+        },
+        {
+          "name": "Luang",
+          "profileImage": "Luang.png",
+          "role": "team entrant"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS017",
+      "title": "Solo Entry Decision",
+      "storyMoment": "Chenlin activates his wrist recorder and chooses to enter alone despite Luen's warning.",
+      "location": "Entrance Exam Plaza",
+      "cameraViewType": "determined medium shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "solo entrant activating recorder"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "concerned teacher"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS018",
+      "title": "Burial Bone Forest Arrival",
+      "storyMoment": "Chenlin materializes in the dense Burial Bone Forest dungeon.",
+      "location": "Burial Bone Forest",
+      "cameraViewType": "environment establishing shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "alone in dungeon"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS019",
+      "title": "Venom Fang Ambush",
+      "storyMoment": "Chenlin cuts down the first ambush serpent before summoning Hey Ming.",
+      "location": "Burial Bone Forest",
+      "cameraViewType": "action closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "fast solo fighter"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS020",
+      "title": "Rules Broken",
+      "storyMoment": "Chenlin advances alone after proving a summoner can fight directly.",
+      "location": "Burial Bone Forest",
+      "cameraViewType": "walking hero shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "summoner breaking expected rules"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS021",
+      "title": "Goblin Swarm Appears",
+      "storyMoment": "Goblins pour from the undergrowth and surround Chenlin.",
+      "location": "Burial Bone Forest",
+      "cameraViewType": "surrounded battle overview",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "calm amid swarm"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS022",
+      "title": "Hey Ming Lands",
+      "storyMoment": "Chenlin summons Hey Ming into the goblin swarm like a black cannonball.",
+      "location": "Burial Bone Forest",
+      "cameraViewType": "impact shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "evolved wolf entering battle"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "commander summoning"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS023",
+      "title": "Goblin Pack Broken",
+      "storyMoment": "Hey Ming and Chenlin slaughter the goblin pack together.",
+      "location": "Burial Bone Forest",
+      "cameraViewType": "battle overview",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "sword fighter"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "wolf tearing through pack"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS024",
+      "title": "Following Survivors",
+      "storyMoment": "Chenlin lets a few goblins flee so he can follow them to the nest.",
+      "location": "Burial Bone Forest",
+      "cameraViewType": "tracking shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "hunter"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "predator companion"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS025",
+      "title": "Cave Nets Drop",
+      "storyMoment": "Goblin traps drop from the ceiling, but Chenlin cuts through them while Hey Ming snaps the hooks.",
+      "location": "Goblin Mountain Cave",
+      "cameraViewType": "trap action shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "cutting net trap"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "breaking bone hooks"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS026",
+      "title": "Flame Goblin Trick",
+      "storyMoment": "Chenlin throws goblins into their own fireballs, turning the enemy formation against itself.",
+      "location": "Goblin Mountain Cave",
+      "cameraViewType": "tactical action shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "improvising fighter"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS027",
+      "title": "Gigantification In Cave",
+      "storyMoment": "Hey Ming activates Gigantification inside the goblin nest.",
+      "location": "Goblin Mountain Cave",
+      "cameraViewType": "creature transformation shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F3.png",
+          "role": "gigantified combat form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "support caster"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First exam boss-scale use of Gigantification.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS028",
+      "title": "Troll Boss Emerges",
+      "storyMoment": "The troll boss steps out of the cave depths and roars at Hey Ming.",
+      "location": "Goblin Mountain Cave",
+      "cameraViewType": "boss reveal",
+      "requiredCharacters": [
+        {
+          "name": "Troll Boss",
+          "profileImage": "Troll_Boss.png",
+          "role": "dungeon boss"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F3.png",
+          "role": "gigantified wolf"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Troll boss stat/health card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS029",
+      "title": "Troll Boss Clash",
+      "storyMoment": "Hey Ming wrestles the troll while Chenlin maintains enhancement and recovery arts.",
+      "location": "Goblin Mountain Cave",
+      "cameraViewType": "boss battle overview",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "support and finisher"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F3.png",
+          "role": "giant wolf combatant"
+        },
+        {
+          "name": "Troll Boss",
+          "profileImage": "Troll_Boss.png",
+          "role": "boss opponent"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS030",
+      "title": "Chenlin Finishes Boss",
+      "storyMoment": "Chenlin drives the final sword strike into the troll boss and claims the dungeon score burst.",
+      "location": "Goblin Mountain Cave",
+      "cameraViewType": "finishing strike closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "boss finisher"
+        },
+        {
+          "name": "Troll Boss",
+          "profileImage": "Troll_Boss.png",
+          "role": "defeated boss"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F3.png",
+          "role": "injured but victorious wolf"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Boss slain score card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS031",
+      "title": "Viewing Gallery Shock",
+      "storyMoment": "Teachers and students outside see Chenlin leap to first place.",
+      "location": "Entrance Exam Viewing Gallery",
+      "cameraViewType": "reaction montage",
+      "requiredCharacters": [
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "stunned teacher"
+        },
+        {
+          "name": "Li Mingji",
+          "profileImage": "Li_Mingji.png",
+          "role": "school leader"
+        },
+        {
+          "name": "Su Ling Shu",
+          "profileImage": "Su_Ling_Shu.png",
+          "role": "elite watching ranking"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Scoreboard and ranking card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS032",
+      "title": "Su Ling Shu Notices",
+      "storyMoment": "Su Ling Shu looks at Chenlin's name above hers on the ranking panel.",
+      "location": "Entrance Exam Viewing Gallery",
+      "cameraViewType": "icy face closeup",
+      "requiredCharacters": [
+        {
+          "name": "Su Ling Shu",
+          "profileImage": "Su_Ling_Shu.png",
+          "role": "elite rival recognizing Chenlin"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS033",
+      "title": "Recruiters Face Off",
+      "storyMoment": "Ji Fei and Fang Yi compete for Chenlin in Second High's reception room.",
+      "location": "Second High Reception Room",
+      "cameraViewType": "tense negotiation shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "recruitment target"
+        },
+        {
+          "name": "Ji Fei",
+          "profileImage": "Ji_Fei.png",
+          "role": "Yunk Academy recruiter"
+        },
+        {
+          "name": "Fang Yi",
+          "profileImage": "Fang_Yi.png",
+          "role": "rival academy recruiter"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "teacher witness"
+        },
+        {
+          "name": "Li Mingji",
+          "profileImage": "Li_Mingji.png",
+          "role": "school leader witness"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS034",
+      "title": "Fang Ya Warning",
+      "storyMoment": "Fang Ya quietly warns Fang Yi that insulting Chenlin will push him toward Yunk Academy.",
+      "location": "Second High Reception Room",
+      "cameraViewType": "quiet character closeup",
+      "requiredCharacters": [
+        {
+          "name": "Fang Ya",
+          "profileImage": "Fang_Ya.png",
+          "role": "sharp-eyed observer"
+        },
+        {
+          "name": "Fang Yi",
+          "profileImage": "Fang_Yi.png",
+          "role": "frustrated recruiter"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "calm recruit"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS035",
+      "title": "Chenlin Chooses Yunk",
+      "storyMoment": "Chenlin chooses Yunk Academy and Ji Fei smiles like she has won a war.",
+      "location": "Second High Reception Room",
+      "cameraViewType": "decision shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F1.png",
+          "role": "choosing academy"
+        },
+        {
+          "name": "Ji Fei",
+          "profileImage": "Ji_Fei.png",
+          "role": "successful recruiter"
+        },
+        {
+          "name": "Fang Yi",
+          "profileImage": "Fang_Yi.png",
+          "role": "rival losing bid"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS036",
+      "title": "Yunk Academy Arrival",
+      "storyMoment": "Chenlin enters Yunk Academy among other province-level geniuses.",
+      "location": "Yunk Academy Classroom",
+      "cameraViewType": "classroom establishing shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "new academy student"
+        },
+        {
+          "name": "Xiao Huiyang",
+          "profileImage": "Xiao_Huiyang.png",
+          "role": "famous rookie"
+        },
+        {
+          "name": "Xiao Yang",
+          "profileImage": "Xiao_Yang.png",
+          "role": "restless academy student"
+        },
+        {
+          "name": "Xiao Yun Shu",
+          "profileImage": "Xiao_Yun_Shu.png",
+          "role": "calm barrier student"
+        },
+        {
+          "name": "Su Ling Shu",
+          "profileImage": "Su_Ling_Shu.png",
+          "role": "elite classmate"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS037",
+      "title": "Support Class Introductions",
+      "storyMoment": "Support specialists appear as future battlefield allies.",
+      "location": "Yunk Academy Classroom",
+      "cameraViewType": "multi-character classroom montage",
+      "requiredCharacters": [
+        {
+          "name": "Lu Ning",
+          "profileImage": "Lu_Ning.png",
+          "role": "tactical note taker"
+        },
+        {
+          "name": "Lu Xiaoyu",
+          "profileImage": "Lu_Xiaoyu.png",
+          "role": "scout-like observer"
+        },
+        {
+          "name": "Meow Shan Shan",
+          "profileImage": "Meow_Shan_Shan.png",
+          "role": "support charm user"
+        },
+        {
+          "name": "Lia Curly",
+          "profileImage": "Lia_Curly_LC-F1.png",
+          "role": "new healer classmate"
+        },
+        {
+          "name": "Luolan",
+          "profileImage": "Luolan.png",
+          "role": "shield relay twin"
+        },
+        {
+          "name": "Luolu",
+          "profileImage": "Luolu.png",
+          "role": "shield relay twin"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS038",
+      "title": "Battlefield Truth",
+      "storyMoment": "Ji Fei reveals humanity is only containing the alien clans, not winning.",
+      "location": "Yunk Academy Classroom",
+      "cameraViewType": "war map reveal",
+      "requiredCharacters": [
+        {
+          "name": "Ji Fei",
+          "profileImage": "Ji_Fei.png",
+          "role": "teacher revealing truth"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "listening seriously"
+        },
+        {
+          "name": "Luwan",
+          "profileImage": "Luwan.png",
+          "role": "nervous classmate"
+        },
+        {
+          "name": "Lu Hongying",
+          "profileImage": "Lu_Hongying.png",
+          "role": "frontline-minded classmate"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS039",
+      "title": "Useful Before Wall Breaks",
+      "storyMoment": "Ji Fei says the academy is betting students become useful before the wall breaks.",
+      "location": "Yunk Academy Classroom",
+      "cameraViewType": "teacher closeup",
+      "requiredCharacters": [
+        {
+          "name": "Ji Fei",
+          "profileImage": "Ji_Fei.png",
+          "role": "blunt instructor"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "absorbing stakes"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS040",
+      "title": "Silver Butterfly Summoned",
+      "storyMoment": "Chenlin summons Silver Butterfly, beautiful but seemingly weaker than even puppy Hey Ming.",
+      "location": "Yunk Academy Summoning Room",
+      "cameraViewType": "delicate summon closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "summoner"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F0.png",
+          "role": "new weak summon"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F1.png",
+          "role": "open-wing stat profile"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First Silver Butterfly stat card: all attributes at 1.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS041",
+      "title": "First Metal Fusion",
+      "storyMoment": "A rare metal dissolves into Silver Butterfly and forms armor over Chenlin's arm.",
+      "location": "Yunk Academy Resource Chamber",
+      "cameraViewType": "equipment transformation shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "discovering armor summon"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F2.png",
+          "role": "early armor fusion form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Silver Butterfly talent reveal: material fusion.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS042",
+      "title": "Living Weapon Arsenal",
+      "storyMoment": "Silver Butterfly reshapes as shield, blade, and winged armor.",
+      "location": "Yunk Academy Resource Chamber",
+      "cameraViewType": "gear montage",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "wearer of living weapon"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F3.png",
+          "role": "enhanced armor/weapon form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Form versatility card for Silver Butterfly.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS043",
+      "title": "Disaster Trial Entry",
+      "storyMoment": "Chenlin enters the dying disaster world and sees the salvation or devouring mission options.",
+      "location": "Ruined Disaster World",
+      "cameraViewType": "apocalyptic city overview",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "trial participant"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F3.png",
+          "role": "black flame wolf"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Trial mission selection card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS044",
+      "title": "Subway Survivors",
+      "storyMoment": "Chenlin saves survivors trapped under a collapsed subway entrance and gives them supplies.",
+      "location": "Ruined Disaster World",
+      "cameraViewType": "rescue scene",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "choosing rescue over points"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS045",
+      "title": "Seven Assassins Block Street",
+      "storyMoment": "Enemy participants and assassins confront Chenlin in the ruined streets.",
+      "location": "Ruined Disaster City Streets",
+      "cameraViewType": "enemy lineup shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "assassination target"
+        },
+        {
+          "name": "Golden-Haired Lightning Caster",
+          "profileImage": "Golden_Haired_Lightning_Caster.png",
+          "role": "enemy caster"
+        },
+        {
+          "name": "Delicate Assassin Woman",
+          "profileImage": "Delicate_Assassin_Woman.png",
+          "role": "enemy assassin"
+        },
+        {
+          "name": "Hulking Flame Man",
+          "profileImage": "Hulking_Flame_Man.png",
+          "role": "enemy flame fighter"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS046",
+      "title": "Hey Ming Reverses Ambush",
+      "storyMoment": "Hey Ming appears behind the assassins and the ambush collapses.",
+      "location": "Ruined Disaster City Streets",
+      "cameraViewType": "sudden reversal action shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F3.png",
+          "role": "giant wolf ambusher"
+        },
+        {
+          "name": "Golden-Haired Lightning Caster",
+          "profileImage": "Golden_Haired_Lightning_Caster.png",
+          "role": "fleeing enemy"
+        },
+        {
+          "name": "Delicate Assassin Woman",
+          "profileImage": "Delicate_Assassin_Woman.png",
+          "role": "enemy dragged into black fire"
+        },
+        {
+          "name": "Hulking Flame Man",
+          "profileImage": "Hulking_Flame_Man.png",
+          "role": "enemy frozen and defeated"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS047",
+      "title": "Matriarch Mission Choice",
+      "storyMoment": "Chenlin decides to defeat the Disaster Matriarch rather than help her devour the world.",
+      "location": "Ruined Disaster World",
+      "cameraViewType": "determined closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "choosing salvation"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F3.png",
+          "role": "devourer rival to Matriarch"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Mission objective commitment.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS048",
+      "title": "Matriarch Nest",
+      "storyMoment": "Chenlin reaches the pulsing organic core nest at the city center.",
+      "location": "Disaster Matriarch Core Nest",
+      "cameraViewType": "boss arena reveal",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "challenger"
+        },
+        {
+          "name": "Disaster Matriarch",
+          "profileImage": "Disaster_Matriarch_DM-F1.png",
+          "role": "world-ending threat"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Disaster Matriarch boss reveal.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS049",
+      "title": "World-Eater Clash",
+      "storyMoment": "Hey Ming and the Disaster Matriarch compete as devourers, black flame against red corruption.",
+      "location": "Disaster Matriarch Core Nest",
+      "cameraViewType": "boss battle overview",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F4.png",
+          "role": "black flame wolf"
+        },
+        {
+          "name": "Disaster Matriarch",
+          "profileImage": "Disaster_Matriarch_DM-F2.png",
+          "role": "evolved boss form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "core attacker"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Disaster Matriarch evolved form.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS050",
+      "title": "Maximum Trial Evaluation",
+      "storyMoment": "The Matriarch falls and Chenlin earns maximum evaluation plus a sacred summoning catalyst.",
+      "location": "Disaster Matriarch Core Nest",
+      "cameraViewType": "victory stat card",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F2.png",
+          "role": "trial victor"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F4.png",
+          "role": "victorious devourer"
+        },
+        {
+          "name": "Disaster Matriarch",
+          "profileImage": "Disaster_Matriarch_DM-F2.png",
+          "role": "defeated world-eater"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Trial complete reward card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS051",
+      "title": "Gold Summoning Light",
+      "storyMoment": "The summoning room fills with gold light as Diana is pulled from corruption.",
+      "location": "Yunk Academy Summoning Room",
+      "cameraViewType": "ethereal summon reveal",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "summoner catching angel"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "newborn angel summon"
+        },
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "protector observing"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "First Diana stat/contract card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS052",
+      "title": "Diana Names Herself",
+      "storyMoment": "Diana clutches Chenlin's sleeve and gives her true name.",
+      "location": "Yunk Academy Summoning Room",
+      "cameraViewType": "tender closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "gentle summoner"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "young angel"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS053",
+      "title": "Sacred Tree Memory",
+      "storyMoment": "Diana tells Chenlin her sacred tree was destroyed and her people are gone.",
+      "location": "Yunk Academy Dormitory",
+      "cameraViewType": "quiet emotional closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "protector listening"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "grieving angel"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS054",
+      "title": "Hey Ming Defeated By Hug",
+      "storyMoment": "Diana hugs Hey Ming's nose and the devouring wolf freezes awkwardly.",
+      "location": "Yunk Academy Dormitory",
+      "cameraViewType": "warm character beat",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "innocent angel"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F2.png",
+          "role": "wolf awkwardly accepting hug"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "watching amused"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS055",
+      "title": "Hangdon Squad Forms",
+      "storyMoment": "Chenlin joins a temporary field squad for high-risk mountain missions.",
+      "location": "Hangdon Base Mountain Range",
+      "cameraViewType": "squad lineup shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "mission leader"
+        },
+        {
+          "name": "Ji Kong",
+          "profileImage": "Ji_Kong.png",
+          "role": "shield ally"
+        },
+        {
+          "name": "Yi Kexi",
+          "profileImage": "Yi_Kexi.png",
+          "role": "buffer support"
+        },
+        {
+          "name": "Lu Ning",
+          "profileImage": "Lu_Ning.png",
+          "role": "tactician"
+        },
+        {
+          "name": "Lu Xiaoyu",
+          "profileImage": "Lu_Xiaoyu.png",
+          "role": "scout"
+        },
+        {
+          "name": "Lia Curly",
+          "profileImage": "Lia_Curly_LC-F2.png",
+          "role": "field healer"
+        },
+        {
+          "name": "Wang Yao",
+          "profileImage": "Wang_Yao.png",
+          "role": "heavy blade fighter"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS056",
+      "title": "Berserk Black Ape Hunt",
+      "storyMoment": "Chenlin fights the Berserk Black Ape without calling Hey Ming.",
+      "location": "Hangdon Base Mountain Range",
+      "cameraViewType": "monster duel action shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "armored fighter"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F3.png",
+          "role": "blade armor form"
+        },
+        {
+          "name": "Berserk Black Ape",
+          "profileImage": "Berserk_Black_Ape.png",
+          "role": "mission target"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "High-level mission target card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS057",
+      "title": "Ape Kill Drone Reaction",
+      "storyMoment": "Drone observers and allies realize Chenlin defeated a level 33 target alone.",
+      "location": "Hangdon Base Mountain Range",
+      "cameraViewType": "drone feed reaction shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "standing over ape"
+        },
+        {
+          "name": "Berserk Black Ape",
+          "profileImage": "Berserk_Black_Ape.png",
+          "role": "defeated target"
+        },
+        {
+          "name": "Luwan",
+          "profileImage": "Luwan.png",
+          "role": "comic channel reaction"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS058",
+      "title": "Twin Fang Tiger Strike",
+      "storyMoment": "Silver Butterfly saves Chenlin from the Twin Fang Giant Tiger's bite.",
+      "location": "Hangdon Base Mountain Range",
+      "cameraViewType": "near-miss action closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "dodging predator"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F3.png",
+          "role": "shield-to-spear form"
+        },
+        {
+          "name": "Twin Fang Giant Tiger",
+          "profileImage": "Twin_Fang_Giant_Tiger.png",
+          "role": "mission target"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Silver Butterfly rapid form shift in combat.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS059",
+      "title": "Giant Rock Drake Gravity",
+      "storyMoment": "The Giant Rock Drake pins the squad with a gravity field.",
+      "location": "Rock Drake Canyon",
+      "cameraViewType": "battlefield pressure overview",
+      "requiredCharacters": [
+        {
+          "name": "Giant Rock Drake",
+          "profileImage": "Giant_Rock_Drake.png",
+          "role": "gravity boss"
+        },
+        {
+          "name": "Ji Kong",
+          "profileImage": "Ji_Kong.png",
+          "role": "pinned shield ally"
+        },
+        {
+          "name": "Yi Kexi",
+          "profileImage": "Yi_Kexi.png",
+          "role": "buffing under pressure"
+        },
+        {
+          "name": "Lu Xiaoyu",
+          "profileImage": "Lu_Xiaoyu.png",
+          "role": "injured scout"
+        },
+        {
+          "name": "Lia Curly",
+          "profileImage": "Lia_Curly_LC-F2.png",
+          "role": "healer maintaining barrier"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Giant Rock Drake boss and gravity-field card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS060",
+      "title": "Hey Ming Phantom Revealed",
+      "storyMoment": "Hey Ming reveals a vast black-flame phantom against the Giant Rock Drake.",
+      "location": "Rock Drake Canyon",
+      "cameraViewType": "power escalation shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F5.png",
+          "role": "black-flame phantom form"
+        },
+        {
+          "name": "Giant Rock Drake",
+          "profileImage": "Giant_Rock_Drake.png",
+          "role": "boss losing gravity field"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "commander"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming phantom combat form.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS061",
+      "title": "Blood Marsh Crocodile Rises",
+      "storyMoment": "The Blood Spirit Colossal Crocodile rises from a red marsh like a living island.",
+      "location": "Blood Marsh Ravine",
+      "cameraViewType": "monster scale reveal",
+      "requiredCharacters": [
+        {
+          "name": "Blood Spirit Colossal Crocodile",
+          "profileImage": "Blood_Spirit_Colossal_Crocodile.png",
+          "role": "mission target"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "armored fighter"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F4.png",
+          "role": "devouring wolf backup"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "High-difficulty colossal target card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS062",
+      "title": "Crocodile Devoured",
+      "storyMoment": "Hey Ming kills the colossal crocodile and devours its life crystal.",
+      "location": "Blood Marsh Ravine",
+      "cameraViewType": "finisher wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F4.png",
+          "role": "black flame finisher"
+        },
+        {
+          "name": "Blood Spirit Colossal Crocodile",
+          "profileImage": "Blood_Spirit_Colossal_Crocodile.png",
+          "role": "defeated target"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "watching power gain"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Devouring growth after colossal kill.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS063",
+      "title": "Yang Xiao Warns Leaders",
+      "storyMoment": "Yang Xiao reports that Chenlin is strong enough to become the alien clans' assassination priority.",
+      "location": "Humanity Command Center",
+      "cameraViewType": "strategic war room shot",
+      "requiredCharacters": [
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "senior protector"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F3.png",
+          "role": "on drone feed"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F4.png",
+          "role": "on battle footage"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS064",
+      "title": "Border Breach",
+      "storyMoment": "Fallen Clan assassins and Shadow Congregation cultists open a border ritual.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "enemy ambush reveal",
+      "requiredCharacters": [
+        {
+          "name": "Fallen Clan",
+          "profileImage": "Fallen_Clan_FC-F1.png",
+          "role": "enemy faction"
+        },
+        {
+          "name": "Fallen Clan",
+          "profileImage": "Fallen_Clan_FC-F2.png",
+          "role": "enemy faction"
+        },
+        {
+          "name": "Fallen Clan",
+          "profileImage": "Fallen_Clan_FC-F3.png",
+          "role": "elite ambusher"
+        },
+        {
+          "name": "Shadow Congregation Cultists",
+          "profileImage": "Shadow_Congregation_Cultists_SC-F1.png",
+          "role": "ritual cultists"
+        },
+        {
+          "name": "Shadow Congregation Cultists",
+          "profileImage": "Shadow_Congregation_Cultists_SC-F2.png",
+          "role": "ritual cultists"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS065",
+      "title": "Leakru And Leardis",
+      "storyMoment": "Leakru and Leardis lead the Fallen Clan ambush with spear smoke and shadow chains.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "villain duo shot",
+      "requiredCharacters": [
+        {
+          "name": "Leakru",
+          "profileImage": "Leakru_LK-F1.png",
+          "role": "masked Fallen commander"
+        },
+        {
+          "name": "Leakru",
+          "profileImage": "Leakru_LK-F2.png",
+          "role": "combat form commander"
+        },
+        {
+          "name": "Leardis",
+          "profileImage": "Leardis_LD-F1.png",
+          "role": "masked shadow-chain commander"
+        },
+        {
+          "name": "Leardis",
+          "profileImage": "Leardis_LD-F2.png",
+          "role": "combat form commander"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Named enemy commanders introduced.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS066",
+      "title": "Border Officers Hold",
+      "storyMoment": "Jiang Wu and Joe Yuan hold the breach long enough for students to withdraw.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "desperate defense shot",
+      "requiredCharacters": [
+        {
+          "name": "Jiang Wu",
+          "profileImage": "Jiang_Wu.png",
+          "role": "border officer"
+        },
+        {
+          "name": "Joe Yuan",
+          "profileImage": "Joe_Yuan.png",
+          "role": "border officer"
+        },
+        {
+          "name": "Fallen Clan",
+          "profileImage": "Fallen_Clan_FC-F3.png",
+          "role": "attacking enemy"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS067",
+      "title": "Diana Burns Curse Array",
+      "storyMoment": "Diana purifies the Shadow Congregation curse array with sacred light.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "purification shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "angel using sacred power"
+        },
+        {
+          "name": "Shadow Congregation Cultists",
+          "profileImage": "Shadow_Congregation_Cultists_SC-F1.png",
+          "role": "cultists losing ritual"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "protected target"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Diana sacred purification display.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS068",
+      "title": "Leardis Cannot Escape",
+      "storyMoment": "Silver Butterfly cuts open Leardis' shadow escape and Hey Ming ends the ambush.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "combat finisher",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "armored fighter"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "upgraded blade armor"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F5.png",
+          "role": "black flame attacker"
+        },
+        {
+          "name": "Leardis",
+          "profileImage": "Leardis_LD-F2.png",
+          "role": "defeated commander"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS069",
+      "title": "Balian Silence",
+      "storyMoment": "After clearing many beasts, Yang Xiao notices the dangerous silence across Balian.",
+      "location": "Balian Mountain Range",
+      "cameraViewType": "ominous tactical shot",
+      "requiredCharacters": [
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "protector reading drone map"
+        },
+        {
+          "name": "Ji Fei",
+          "profileImage": "Ji_Fei.png",
+          "role": "teacher beside command map"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "campaign leader"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS070",
+      "title": "Raging Horned Bull Charge",
+      "storyMoment": "The Raging Horned Bull charges through valleys before Hey Ming catches it by the horns.",
+      "location": "Balian Mountain Range",
+      "cameraViewType": "kaiju action shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F6.png",
+          "role": "massive devouring wolf"
+        },
+        {
+          "name": "Raging Horned Bull",
+          "profileImage": "Raging_Horned_Bull.png",
+          "role": "colossal beast"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Colossal beast hunt card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS071",
+      "title": "Undying Bear Rises Again",
+      "storyMoment": "The Undying Berserk Bear regenerates repeatedly as Hey Ming devours its vitality.",
+      "location": "Balian Mountain Range",
+      "cameraViewType": "monster regeneration shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F6.png",
+          "role": "devouring wolf"
+        },
+        {
+          "name": "Undying Berserk Bear",
+          "profileImage": "Undying_Berserk_Bear.png",
+          "role": "regenerating beast"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Undying vitality mechanic.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS072",
+      "title": "Three-Headed Serpent Lake",
+      "storyMoment": "The Three-Headed Serpent poisons a lake while Diana purifies the water.",
+      "location": "Balian Mountain Range",
+      "cameraViewType": "environment battle shot",
+      "requiredCharacters": [
+        {
+          "name": "Three-Headed Serpent",
+          "profileImage": "Three_Headed_Serpent.png",
+          "role": "poison colossal beast"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "purifying angel"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "cutting serpent heads"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Serpent threat and Diana purification.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS073",
+      "title": "Twisted Tree King Burns",
+      "storyMoment": "The Twisted Tree King falls during the Balian purge as black flame spreads through its roots.",
+      "location": "Balian Mountain Range",
+      "cameraViewType": "forest boss shot",
+      "requiredCharacters": [
+        {
+          "name": "Twisted Tree King",
+          "profileImage": "Twisted_Tree_King.png",
+          "role": "ancient tree beast"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F6.png",
+          "role": "black flame predator"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "campaign leader"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Balian boss target card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS074",
+      "title": "Dark Gold Bear Flees",
+      "storyMoment": "The Dark Gold Berserk Bear tries to flee into the inner mountains.",
+      "location": "Balian Mountain Range",
+      "cameraViewType": "chase shot",
+      "requiredCharacters": [
+        {
+          "name": "Dark Gold Berserk Bear",
+          "profileImage": "Dark_Gold_Berserk_Bear.png",
+          "role": "fleeing colossal beast"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F6.png",
+          "role": "pursuing wolf"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Dark Gold Berserk Bear boss target.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS075",
+      "title": "Bear Dragged Back",
+      "storyMoment": "Hey Ming catches the Dark Gold Berserk Bear and drags it back by the neck.",
+      "location": "Balian Mountain Range",
+      "cameraViewType": "brutal victory shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F6.png",
+          "role": "victorious massive wolf"
+        },
+        {
+          "name": "Dark Gold Berserk Bear",
+          "profileImage": "Dark_Gold_Berserk_Bear.png",
+          "role": "defeated colossal beast"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Post-devouring growth setup.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS076",
+      "title": "Wooan Emergency Call",
+      "storyMoment": "Wooan Base requests support as beast tides gather under a level 69 commander.",
+      "location": "Humanity Command Center",
+      "cameraViewType": "alarm map shot",
+      "requiredCharacters": [
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "issuing deployment"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "accepting mission"
+        },
+        {
+          "name": "Commander Cao Wu",
+          "profileImage": "Commander_Cao_Wu.png",
+          "role": "appearing on emergency feed"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS077",
+      "title": "Transport To Wooan",
+      "storyMoment": "Chenlin boards the transport with academy allies and support teams.",
+      "location": "Wooan Base Airstrip",
+      "cameraViewType": "aircraft interior group shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "reinforcement"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "small angel on shoulder"
+        },
+        {
+          "name": "Luwan",
+          "profileImage": "Luwan.png",
+          "role": "nervous ally"
+        },
+        {
+          "name": "Luolan",
+          "profileImage": "Luolan.png",
+          "role": "shield relay twin"
+        },
+        {
+          "name": "Luolu",
+          "profileImage": "Luolu.png",
+          "role": "shield relay twin"
+        },
+        {
+          "name": "Xiao Yang",
+          "profileImage": "Xiao_Yang.png",
+          "role": "ammo smuggler"
+        },
+        {
+          "name": "Xiao Yun Shu",
+          "profileImage": "Xiao_Yun_Shu.png",
+          "role": "quiet barrier caster"
+        },
+        {
+          "name": "Xiao Huiyang",
+          "profileImage": "Xiao_Huiyang.png",
+          "role": "confident reserve leader"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS078",
+      "title": "Commander Cao Wu Welcomes Chenlin",
+      "storyMoment": "Commander Cao Wu meets Chenlin at Wooan and leads him to prepared resources.",
+      "location": "Wooan Base Airstrip",
+      "cameraViewType": "military greeting shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "arriving reinforcement"
+        },
+        {
+          "name": "Commander Cao Wu",
+          "profileImage": "Commander_Cao_Wu.png",
+          "role": "relieved commander"
+        },
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "senior protector"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS079",
+      "title": "Wooan Resource Crates",
+      "storyMoment": "Chenlin opens huge crates of rare metals and life crystals for Silver Butterfly.",
+      "location": "Wooan Base Logistics Warehouse",
+      "cameraViewType": "upgrade preparation shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "upgrading equipment"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "advanced armor summon"
+        },
+        {
+          "name": "Commander Cao Wu",
+          "profileImage": "Commander_Cao_Wu.png",
+          "role": "resource provider"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS080",
+      "title": "Lava Edge Upgrade",
+      "storyMoment": "Silver Butterfly gains Lava Edge, Sharpness stacks, and Scale At Will.",
+      "location": "Wooan Base Logistics Warehouse",
+      "cameraViewType": "stat upgrade card",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "wearing upgraded armor"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "fully upgraded armor form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Silver Butterfly major property upgrade.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS081",
+      "title": "Wooan Briefing",
+      "storyMoment": "Commander Cao Wu orders teams to intercept stragglers and avoid direct colossal contact.",
+      "location": "Wooan Base Airstrip",
+      "cameraViewType": "briefing overview",
+      "requiredCharacters": [
+        {
+          "name": "Commander Cao Wu",
+          "profileImage": "Commander_Cao_Wu.png",
+          "role": "briefing commander"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "solo operator"
+        },
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "knows Chenlin will ignore limits"
+        },
+        {
+          "name": "Wangfeng",
+          "profileImage": "Wangfeng.png",
+          "role": "cadet defending home city"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS082",
+      "title": "Support Assignments",
+      "storyMoment": "Academy support characters receive evacuation, shield, scout, healer, and coordination roles.",
+      "location": "Wooan Base Airstrip",
+      "cameraViewType": "tactical assignment montage",
+      "requiredCharacters": [
+        {
+          "name": "Xiao Huiyang",
+          "profileImage": "Xiao_Huiyang.png",
+          "role": "evacuation leader"
+        },
+        {
+          "name": "Lu Ning",
+          "profileImage": "Lu_Ning.png",
+          "role": "tactical coordinator"
+        },
+        {
+          "name": "Lu Xiaoyu",
+          "profileImage": "Lu_Xiaoyu.png",
+          "role": "scout line"
+        },
+        {
+          "name": "Meow Shan Shan",
+          "profileImage": "Meow_Shan_Shan.png",
+          "role": "support charms"
+        },
+        {
+          "name": "Lia Curly",
+          "profileImage": "Lia_Curly_LC-F2.png",
+          "role": "healer support"
+        },
+        {
+          "name": "Luolan",
+          "profileImage": "Luolan.png",
+          "role": "shield relay"
+        },
+        {
+          "name": "Luolu",
+          "profileImage": "Luolu.png",
+          "role": "shield relay"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS083",
+      "title": "Hey Ming Mount Form",
+      "storyMoment": "Chenlin summons Hey Ming over a hundred meters tall and mounts him with Diana.",
+      "location": "Wooan Base Airstrip",
+      "cameraViewType": "giant creature reveal",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "rider"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "battlefield-scale wolf"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "riding with Chenlin"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming giant battlefield form.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS084",
+      "title": "Beast Tide Geography",
+      "storyMoment": "The Wooan beast tide stretches across the mountain plain like moving geography.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "extreme wide battle overview",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "riding into battle"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "giant wolf"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "small angel watching tide"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS085",
+      "title": "Direct Charge",
+      "storyMoment": "Chenlin points at the center of the formation and Hey Ming charges the main beast tide.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "speed impact shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "ordering impossible charge"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "breaking sound barrier"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS086",
+      "title": "Commander Cao Wu Protests",
+      "storyMoment": "Commander Cao Wu realizes Chenlin is attacking the main formation instead of stragglers.",
+      "location": "Wooan Base Command Center",
+      "cameraViewType": "command reaction shot",
+      "requiredCharacters": [
+        {
+          "name": "Commander Cao Wu",
+          "profileImage": "Commander_Cao_Wu.png",
+          "role": "shocked commander"
+        },
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "resigned observer"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS087",
+      "title": "Black Flame Domain",
+      "storyMoment": "Hey Ming unfolds a black flame domain that burns lower-level beasts from within.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "domain expansion shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "domain caster"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "rider in black flame"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Hey Ming battlefield domain ability.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS088",
+      "title": "Burrower Bait",
+      "storyMoment": "Chenlin uses himself as bait to mark the hidden burrowing colossal beast.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "tactical danger shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "bait and commander"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "sensor wing armor"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "jumping over burrower"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS089",
+      "title": "Diana Rises To Fight",
+      "storyMoment": "Diana flies upward and asks to fight despite being newly born.",
+      "location": "Wooan Mountain Battlefield Sky",
+      "cameraViewType": "angel ascent shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "young angel before transformation"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "watching from below"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "fighting below"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS090",
+      "title": "Diana Transition Form",
+      "storyMoment": "Gold light breaks around Diana as she shifts from child angel toward adult moon combat form.",
+      "location": "Wooan Mountain Battlefield Sky",
+      "cameraViewType": "transformation mid-shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F2.png",
+          "role": "transition form"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "battlefield below"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Diana form change begins.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS091",
+      "title": "Adult Moon Diana",
+      "storyMoment": "Diana completes adult moon combat form with nine dark red ring blades.",
+      "location": "Wooan Mountain Battlefield Sky",
+      "cameraViewType": "celestial transformation shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F3.png",
+          "role": "adult moon combat form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Diana adult moon combat form.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS092",
+      "title": "Ring Blades Carve Colossal Beast",
+      "storyMoment": "Diana's ring blades cut deep wounds into a colossal beast.",
+      "location": "Wooan Mountain Battlefield Sky",
+      "cameraViewType": "aerial attack shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F3.png",
+          "role": "adult angel attacker"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "fighting other colossal beasts"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS093",
+      "title": "Ring Blade Annihilation",
+      "storyMoment": "Diana fuses nine ring blades into one enormous annihilating blade.",
+      "location": "Wooan Mountain Battlefield Sky",
+      "cameraViewType": "ultimate attack charge",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "ultimate moon-ring form"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Ring Blade Annihilation ultimate.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS094",
+      "title": "Colossal Beast One-Shot",
+      "storyMoment": "Diana kills a level 65 colossal beast in a single strike.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "ultimate impact shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "ultimate attacker"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "fighting below"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Ultimate attack kill card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS095",
+      "title": "Diana Reverts",
+      "storyMoment": "Diana exhausts her power and reverts to child form, falling into Chenlin's arms.",
+      "location": "Wooan Mountain Battlefield Sky",
+      "cameraViewType": "emotional catch shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "exhausted child angel"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "catching her"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS096",
+      "title": "Wooan Front Cleared",
+      "storyMoment": "The western beast front collapses and Hey Ming devours the battlefield remains.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "aftermath wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "victorious summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "devouring battlefield"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "resting child angel"
+        },
+        {
+          "name": "Commander Cao Wu",
+          "profileImage": "Commander_Cao_Wu.png",
+          "role": "watching from feed"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Growth feedback after major battlefield devouring.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS097",
+      "title": "Bear King Awakens",
+      "storyMoment": "The real commander, the level 69 Dark Gold Berserk Bear King, rises after the first Wooan victory.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "ominous monster reveal",
+      "requiredCharacters": [
+        {
+          "name": "Dark Gold Berserk Bear King",
+          "profileImage": "Dark_Gold_Berserk_Bear.png",
+          "role": "level 69 beast commander"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "exhausted but alert"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "giant wolf"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "drained angel"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "True Wooan boss reveal.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS098",
+      "title": "Artillery Fails",
+      "storyMoment": "Commander Cao Wu orders artillery, but the Bear King walks through explosions unharmed.",
+      "location": "Wooan Base Command Center",
+      "cameraViewType": "command despair shot",
+      "requiredCharacters": [
+        {
+          "name": "Commander Cao Wu",
+          "profileImage": "Commander_Cao_Wu.png",
+          "role": "ordering artillery"
+        },
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "cursed protector"
+        },
+        {
+          "name": "Dark Gold Berserk Bear King",
+          "profileImage": "Dark_Gold_Berserk_Bear.png",
+          "role": "on drone feed"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS099",
+      "title": "Bear King Targets Chenlin",
+      "storyMoment": "The Bear King learns the lifebound weakness and strikes at Chenlin instead of Hey Ming.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "near-death action shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "targeted summoner"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "five-layer shield armor"
+        },
+        {
+          "name": "Dark Gold Berserk Bear King",
+          "profileImage": "Dark_Gold_Berserk_Bear.png",
+          "role": "intelligent boss"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS100",
+      "title": "Trust Through Fury",
+      "storyMoment": "Chenlin stops Hey Ming from losing control after being attacked through the bond.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "bond closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "bleeding contractor"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "furious lifebound wolf"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS101",
+      "title": "Shared Evolution Warning",
+      "storyMoment": "The system offers dangerous shared evolution after Hey Ming is wounded.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "system warning card",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "accepting shared evolution"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "wounded giant wolf"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "ready to stabilize"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "adaptive armor"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Lifebound shared evolution prompt.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS102",
+      "title": "Black Flame Armor",
+      "storyMoment": "Black devouring flame enters Silver Butterfly armor while Diana's sacred seal keeps Chenlin alive.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "transformation closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "shared-evolution fighter"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "black-flame engraved armor"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "sacred stabilizer"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "resonating wolf"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Shared evolution visual form.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS103",
+      "title": "Bear King Core Pierced",
+      "storyMoment": "Chenlin and Hey Ming strike together, shattering the Bear King and devouring its core.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "final boss finishing strike",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "core-piercing finisher"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "throat-biting finisher"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "evolved blade armor"
+        },
+        {
+          "name": "Dark Gold Berserk Bear King",
+          "profileImage": "Dark_Gold_Berserk_Bear.png",
+          "role": "defeated boss"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Boss defeated and devoured.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS104",
+      "title": "Dawn Over Wooan",
+      "storyMoment": "The beast tide loses command and Wooan survives until dawn.",
+      "location": "Wooan Mountain Battlefield",
+      "cameraViewType": "sunrise aftermath",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "survivor of boss battle"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "exhausted giant wolf"
+        },
+        {
+          "name": "Commander Cao Wu",
+          "profileImage": "Commander_Cao_Wu.png",
+          "role": "relieved commander"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS105",
+      "title": "Violet Gate Opens",
+      "storyMoment": "The Fallen Clan opens a violet spatial wound over the border defense ruins.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "portal invasion wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Fallen Clan Warlord",
+          "profileImage": "Fallen_Clan_FC-F4.png",
+          "role": "final invasion commander"
+        },
+        {
+          "name": "Fallen Clan Warriors",
+          "profileImage": "Fallen_Clan_FC-F1.png",
+          "role": "frontline invaders"
+        },
+        {
+          "name": "Fallen Clan Warriors",
+          "profileImage": "Fallen_Clan_FC-F2.png",
+          "role": "elite invaders"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Final invasion and warlord reveal.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS106",
+      "title": "Fallen Sky Phantoms Descend",
+      "storyMoment": "Two Fallen Sky Phantoms drift through the gate and suffocate spells around them.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "terror creature reveal",
+      "requiredCharacters": [
+        {
+          "name": "Fallen Sky Phantom",
+          "profileImage": "Fallen_Sky_Phantom_FS-F1.png",
+          "role": "first terror phantom"
+        },
+        {
+          "name": "Fallen Sky Phantom",
+          "profileImage": "Fallen_Sky_Phantom_FS-F2.png",
+          "role": "second terror phantom"
+        },
+        {
+          "name": "Fallen Clan Warlord",
+          "profileImage": "Fallen_Clan_FC-F4.png",
+          "role": "commander behind them"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Fallen Sky Phantom threat card.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS107",
+      "title": "Humanity Assembles",
+      "storyMoment": "Chenlin, protectors, academy allies, and former rivals gather before the invasion gate.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "hero lineup battlefront",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "central summoner"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "giant wolf behind line"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "angel preparing judgment"
+        },
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "senior protector"
+        },
+        {
+          "name": "Jiang Ju",
+          "profileImage": "Jiang_Ju.png",
+          "role": "throne-ranked powerhouse"
+        },
+        {
+          "name": "Su Ling Shu",
+          "profileImage": "Su_Ling_Shu.png",
+          "role": "ice elite"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "mage seeking redemption"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS108",
+      "title": "Lu Ru Yan Apologizes",
+      "storyMoment": "Lu Ru Yan admits she was wrong, and Chenlin tells her survival is enough.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "emotional two-shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "focused before final war"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "former girlfriend seeking redemption"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS109",
+      "title": "Support Network Holds",
+      "storyMoment": "Academy support characters coordinate shields, healing, scouting, and evacuation routes.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "tactical montage",
+      "requiredCharacters": [
+        {
+          "name": "Xiao Huiyang",
+          "profileImage": "Xiao_Huiyang.png",
+          "role": "reserve leader"
+        },
+        {
+          "name": "Xiao Yang",
+          "profileImage": "Xiao_Yang.png",
+          "role": "ammunition support"
+        },
+        {
+          "name": "Xiao Yun Shu",
+          "profileImage": "Xiao_Yun_Shu.png",
+          "role": "barrier caster"
+        },
+        {
+          "name": "Lu Ning",
+          "profileImage": "Lu_Ning.png",
+          "role": "flank coordinator"
+        },
+        {
+          "name": "Lu Xiaoyu",
+          "profileImage": "Lu_Xiaoyu.png",
+          "role": "scout marker"
+        },
+        {
+          "name": "Wang Yao",
+          "profileImage": "Wang_Yao.png",
+          "role": "vanguard blade"
+        },
+        {
+          "name": "Meow Shan Shan",
+          "profileImage": "Meow_Shan_Shan.png",
+          "role": "support charm user"
+        },
+        {
+          "name": "Lia Curly",
+          "profileImage": "Lia_Curly_LC-F2.png",
+          "role": "healer defender"
+        },
+        {
+          "name": "Luolan",
+          "profileImage": "Luolan.png",
+          "role": "shield relay twin"
+        },
+        {
+          "name": "Luolu",
+          "profileImage": "Luolu.png",
+          "role": "shield relay twin"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS110",
+      "title": "First Phantom Breach",
+      "storyMoment": "The first Fallen Sky Phantom attacks the healer line, forcing Meow Shan Shan and Lia Curly to hold for three seconds.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "defensive crisis shot",
+      "requiredCharacters": [
+        {
+          "name": "Fallen Sky Phantom",
+          "profileImage": "Fallen_Sky_Phantom_FS-F1.png",
+          "role": "attacking healer line"
+        },
+        {
+          "name": "Meow Shan Shan",
+          "profileImage": "Meow_Shan_Shan.png",
+          "role": "throwing emergency charms"
+        },
+        {
+          "name": "Lia Curly",
+          "profileImage": "Lia_Curly_LC-F2.png",
+          "role": "forming healing barrier"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS111",
+      "title": "Phantom Pinned",
+      "storyMoment": "Wang Yao, Xiao Yang, and Xiao Yun Shu pin the first phantom until Hey Ming's flame reaches it.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "team combo shot",
+      "requiredCharacters": [
+        {
+          "name": "Wang Yao",
+          "profileImage": "Wang_Yao.png",
+          "role": "blade splitting phantom"
+        },
+        {
+          "name": "Xiao Yang",
+          "profileImage": "Xiao_Yang.png",
+          "role": "detonating ammunition"
+        },
+        {
+          "name": "Xiao Yun Shu",
+          "profileImage": "Xiao_Yun_Shu.png",
+          "role": "folding barrier"
+        },
+        {
+          "name": "Fallen Sky Phantom",
+          "profileImage": "Fallen_Sky_Phantom_FS-F1.png",
+          "role": "trapped phantom"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS112",
+      "title": "Second Phantom Pierced",
+      "storyMoment": "Luolan and Luolu hold the relay as Lu Xiaoyu marks the core and Su Ling Shu freezes it.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "coordinated defense shot",
+      "requiredCharacters": [
+        {
+          "name": "Luolan",
+          "profileImage": "Luolan.png",
+          "role": "relay holder"
+        },
+        {
+          "name": "Luolu",
+          "profileImage": "Luolu.png",
+          "role": "relay holder"
+        },
+        {
+          "name": "Lu Xiaoyu",
+          "profileImage": "Lu_Xiaoyu.png",
+          "role": "core marker"
+        },
+        {
+          "name": "Su Ling Shu",
+          "profileImage": "Su_Ling_Shu.png",
+          "role": "ice spear attacker"
+        },
+        {
+          "name": "Fallen Sky Phantom",
+          "profileImage": "Fallen_Sky_Phantom_FS-F2.png",
+          "role": "pierced phantom"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS113",
+      "title": "Classmates Hold The World",
+      "storyMoment": "Ji Kong, Yi Kexi, Lu Hongying, Luwan, and Wangfeng fight across the final battlefield.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "ally battle montage",
+      "requiredCharacters": [
+        {
+          "name": "Ji Kong",
+          "profileImage": "Ji_Kong.png",
+          "role": "shielding fallen squad"
+        },
+        {
+          "name": "Yi Kexi",
+          "profileImage": "Yi_Kexi.png",
+          "role": "maintaining blessing chain"
+        },
+        {
+          "name": "Lu Hongying",
+          "profileImage": "Lu_Hongying.png",
+          "role": "frontline striker"
+        },
+        {
+          "name": "Luwan",
+          "profileImage": "Luwan.png",
+          "role": "surviving impossible charge"
+        },
+        {
+          "name": "Wangfeng",
+          "profileImage": "Wangfeng.png",
+          "role": "protecting civilians"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS114",
+      "title": "Diana Recognizes Crown",
+      "storyMoment": "Diana realizes the warlord's bone crown carries the same fallen power that destroyed her sacred tree.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "emotional face closeup",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "angel recognizing destroyer"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "beside her"
+        },
+        {
+          "name": "Fallen Clan Warlord",
+          "profileImage": "Fallen_Clan_FC-F4.png",
+          "role": "bone-crowned enemy"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS115",
+      "title": "Sun-Moon Awakening",
+      "storyMoment": "Diana awakens Sun-Moon Judgment, with gold sun and crimson moon behind her.",
+      "location": "Border Defense Ruins Sky",
+      "cameraViewType": "divine ultimate transformation",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "Sun-Moon Judgment form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "armored summoner below"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "black flame rising"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "all blades unfolded"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Diana ultimate form: Sun-Moon Judgment.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS116",
+      "title": "Corruption Burned Away",
+      "storyMoment": "Diana's sun authority burns corruption from Yang Xiao and Jiang Ju.",
+      "location": "Border Defense Ruins Sky",
+      "cameraViewType": "healing judgment shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "judgment caster"
+        },
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "curse being cleansed"
+        },
+        {
+          "name": "Jiang Ju",
+          "profileImage": "Jiang_Ju.png",
+          "role": "corruption wounds burning away"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Sun-Moon Judgment cleansing effect.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS117",
+      "title": "Warlord Crown Pierced",
+      "storyMoment": "Chenlin uses Silver Butterfly to pierce the Fallen Clan warlord's bone crown.",
+      "location": "Border Defense Ruins Sky",
+      "cameraViewType": "climactic strike closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "crown-piercing attacker"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "final blade form"
+        },
+        {
+          "name": "Fallen Clan Warlord",
+          "profileImage": "Fallen_Clan_FC-F4.png",
+          "role": "pinned final enemy"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS118",
+      "title": "Gate Devoured",
+      "storyMoment": "Hey Ming bites into the spatial gate and devours the invasion path itself.",
+      "location": "Border Defense Ruins Sky",
+      "cameraViewType": "portal destruction wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "devouring spatial gate"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "judgment light caster"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "supporting final strike"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Spatial gate devoured and final enemy defeated.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS119",
+      "title": "After The Gate",
+      "storyMoment": "The sky heals after the Fallen Clan warlord vanishes and the alien forces flee.",
+      "location": "Border Defense Ruins",
+      "cameraViewType": "aftermath shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "surviving hero"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "giant wolf calming"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "exhausted judgment form"
+        },
+        {
+          "name": "Luwan",
+          "profileImage": "Luwan.png",
+          "role": "asking if classes are canceled"
+        },
+        {
+          "name": "Ji Fei",
+          "profileImage": "Ji_Fei.png",
+          "role": "bloodied teacher smiling"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS120",
+      "title": "Sacred Realm Arrival",
+      "storyMoment": "Chenlin takes Diana to her ruined sacred realm after the war.",
+      "location": "Sacred Realm Floating Island",
+      "cameraViewType": "quiet fantasy wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "companion entering realm"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "returning angel"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F6.png",
+          "role": "gentle devouring wolf"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "life-crystal channel armor"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS121",
+      "title": "Faceless Teacher Statue",
+      "storyMoment": "Diana finds the defaced statue of her teacher and remembers her voice.",
+      "location": "Sacred Realm Floating Island",
+      "cameraViewType": "grief closeup",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "grieving angel"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "silent support"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS122",
+      "title": "Gentle Hunger",
+      "storyMoment": "Hey Ming eats corruption chains without harming the sacred tree.",
+      "location": "Sacred Realm Floating Island",
+      "cameraViewType": "miracle closeup",
+      "requiredCharacters": [
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F6.png",
+          "role": "gentle devourer"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "watching in awe"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "channeling lifebound power"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS123",
+      "title": "Life Crystals Channel",
+      "storyMoment": "Silver Butterfly channels gathered life crystals into the roots while Chenlin pours power through the bond.",
+      "location": "Sacred Realm Floating Island",
+      "cameraViewType": "restoration ritual shot",
+      "requiredCharacters": [
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "life-crystal channel"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "power channel"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F1.png",
+          "role": "singing restoration"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS124",
+      "title": "Sacred Tree Blooms",
+      "storyMoment": "The sacred tree blooms with golden leaves and angelic memory figures bow to Diana.",
+      "location": "Sacred Realm Floating Island",
+      "cameraViewType": "restoration miracle wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "evolved restoration authority form"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "standing with her"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F6.png",
+          "role": "resting beside restored tree"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Diana evolution: Sacred Realm Restoration.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS125",
+      "title": "Diana Receives Seed",
+      "storyMoment": "The tree releases a gold-silver seed into Diana, completing her restoration evolution.",
+      "location": "Sacred Realm Floating Island",
+      "cameraViewType": "divine closeup",
+      "requiredCharacters": [
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "restoration-evolved angel"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "witness and family"
+        }
+      ],
+      "statCardRequired": true,
+      "statCardReason": "Authority awakened: Sacred Realm Restoration.",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS126",
+      "title": "Years Of Final Hunts",
+      "storyMoment": "Chenlin's team clears remaining Fallen Clan nests, disaster rituals, and mutant beast kings.",
+      "location": "Balian Mountain Range",
+      "cameraViewType": "time-skip montage",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "matured hero"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F7.png",
+          "role": "world-ending wolf"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F4.png",
+          "role": "restoration and judgment angel"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "legendary armament"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS127",
+      "title": "Hey Ming Statue Ceremony",
+      "storyMoment": "Yunk Academy unveils a statue of Hey Ming while allies gather.",
+      "location": "Yunk Academy Front Gate",
+      "cameraViewType": "epilogue crowd wide shot",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "honored but uncomfortable hero"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "puppy form by choice"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "small angel on shoulder"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "polished wing ornament"
+        },
+        {
+          "name": "Ji Fei",
+          "profileImage": "Ji_Fei.png",
+          "role": "proud teacher"
+        },
+        {
+          "name": "Luen",
+          "profileImage": "Luen.png",
+          "role": "former teacher bowing"
+        },
+        {
+          "name": "Lu Ru Yan",
+          "profileImage": "Lu_Ru_Yan.png",
+          "role": "survivor acknowledging past"
+        },
+        {
+          "name": "Luwan",
+          "profileImage": "Luwan.png",
+          "role": "crying openly"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS128",
+      "title": "Family Payoff",
+      "storyMoment": "Chenlin sees his little sister in an academy-prep uniform and his mother's portrait among honored family seats.",
+      "location": "Yunk Academy Front Gate",
+      "cameraViewType": "emotional epilogue closeup",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "hero remembering origin"
+        },
+        {
+          "name": "Chenlin's Little Sister",
+          "profileImage": "Chenlin_Little_Sister.png",
+          "role": "future student waving"
+        },
+        {
+          "name": "Chenlin's Mother",
+          "profileImage": "Chenlin_Mother.png",
+          "role": "portrait among honored seats"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS129",
+      "title": "New Disturbance",
+      "storyMoment": "Yang Xiao arrives with a tablet showing a new distant spatial disturbance.",
+      "location": "Yunk Academy Front Gate",
+      "cameraViewType": "mission hook shot",
+      "requiredCharacters": [
+        {
+          "name": "Yang Xiao",
+          "profileImage": "Yang_Xiao.png",
+          "role": "protector bringing next mission"
+        },
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "tired but ready hero"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "puppy tail wagging"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "excited angel"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "ready to unfold"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    },
+    {
+      "id": "AS130",
+      "title": "Next Horizon",
+      "storyMoment": "Chenlin carries puppy-form Hey Ming toward the waiting transport and the next unknown threat.",
+      "location": "Yunk Academy Front Gate",
+      "cameraViewType": "closing hero walkaway",
+      "requiredCharacters": [
+        {
+          "name": "Chenlin",
+          "profileImage": "Chenlin_CL-F4.png",
+          "role": "departing hero"
+        },
+        {
+          "name": "Hey Ming",
+          "profileImage": "Hey_Ming_HM-F0.png",
+          "role": "impossible puppy in arms"
+        },
+        {
+          "name": "Diana",
+          "profileImage": "Diana_DI-F0.png",
+          "role": "companion on shoulder"
+        },
+        {
+          "name": "Silver Butterfly",
+          "profileImage": "Silver_Butterfly_SB-F4.png",
+          "role": "wing ornament ready for battle"
+        }
+      ],
+      "statCardRequired": false,
+      "statCardReason": "",
+      "imagePromptNotes": ""
+    }
+  ],
+  "sceneGranularity": "atomic_with_dense_opening",
+  "atomicSceneDefinition": "Each scene represents one image-generation beat: a single action, reaction, stat card, transformation, location reveal, or emotional moment.",
+  "recommendedUse": {
+    "narrationTargetMinutes": 64,
+    "firstFiveMinutesCadenceSeconds": "4-6 strong hook beats",
+    "firstTenMinutesCadenceSeconds": "4-6 dense opening beats",
+    "laterCadenceSeconds": "25-35, faster during fights and transformations",
+    "totalAtomicScenes": 204
+  },
+  "firstTenMinutes": {
+    "imageBeatCadenceSeconds": "4-6",
+    "atomicSceneRanges": [
+      "F5_001-F5_060 (minus duplicate F5_046)",
+      "T10_091-T10_120"
+    ],
+    "atomicSceneCount": 89,
+    "coverage": "First five minutes use the stronger hook block; the remaining dense opening resumes at the quiet Chenlin-Hey Ming bond, then continues through Hey Ming first evolution and the exam transition without repeating the meat-buying, first-feeding, or contractor-feedback beats."
+  },
+  "firstFiveMinutes": {
+    "imageBeatCadenceSeconds": "4-6",
+    "atomicSceneRange": "F5_001-F5_060 (minus duplicate F5_046)",
+    "atomicSceneCount": 59,
+    "strategy": "Cold open with future payoff, then rapid emotional fall into awakening betrayal and hidden Gluttonous Greed reveal."
+  }
+}
